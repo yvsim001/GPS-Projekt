@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Fri Jun 21 14:15:01 2024
+# Process ID: 7068
+# Current directory: E:/GPS PROJEKT/Embedded System/Simo_Gueno/project_GPS
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17364 E:\GPS PROJEKT\Embedded System\Simo_Gueno\project_GPS\project_GPS.xpr
+# Log file: E:/GPS PROJEKT/Embedded System/Simo_Gueno/project_GPS/vivado.log
+# Journal file: E:/GPS PROJEKT/Embedded System/Simo_Gueno/project_GPS\vivado.jou
+# Running On        :VALDERSYM
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :AMD Ryzen 5 5600X 6-Core Processor             
+# CPU Frequency     :3693 MHz
+# CPU Physical cores:6
+# CPU Logical cores :12
+# Host memory       :17099 MB
+# Swap memory       :3087 MB
+# Total Virtual     :20186 MB
+# Available Virtual :7368 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/GPS PROJEKT/Embedded System/Simo_Gueno/project_GPS/project_GPS.xpr}

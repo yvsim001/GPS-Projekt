@@ -1,0 +1,18 @@
+13:00:02 DEBUG : Logs will be stored at 'C:/Users/Student/Desktop/Embedded System/Simo_Gueno/HelloWord/IDE.log'.
+13:00:03 ERROR : Workspace location C:\Users\Student\Desktop\Embedded System\Simo_Gueno\HelloWord contains spaces. Please switch to a workspace without spaces in its path.
+13:00:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Student\Desktop\Embedded System\Simo_Gueno\HelloWord\temp_xsdb_launch_script.tcl
+13:00:03 INFO  : Registering command handlers for Vitis TCF services
+13:00:04 INFO  : Platform repository initialization has completed.
+13:00:04 ERROR : (XSDB Server)couldn't read file "C:\Users\Student\Desktop\Embedded": permission denied
+
+13:02:32 DEBUG : Logs will be stored at 'C:/Users/Student/Desktop/Embedded System/Simo_Gueno/HelloWord/IDE.log'.
+13:02:33 ERROR : Workspace location C:\Users\Student\Desktop\Embedded System\Simo_Gueno\HelloWord contains spaces. Please switch to a workspace without spaces in its path.
+13:02:33 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Student\Desktop\Embedded System\Simo_Gueno\HelloWord\temp_xsdb_launch_script.tcl
+13:02:34 INFO  : Registering command handlers for Vitis TCF services
+13:02:34 INFO  : Platform repository initialization has completed.
+13:02:35 ERROR : (XSDB Server)couldn't read file "C:\Users\Student\Desktop\Embedded": permission denied
+
+13:05:34 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+13:05:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Student\Desktop\Embedded System\Simo_Gueno\HelloWord\temp_xsdb_launch_script.tcl
+13:05:35 ERROR : (XSDB Server)couldn't read file "C:\Users\Student\Desktop\Embedded": permission denied
+

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Jun 17 13:21:37 2024
+# Process ID: 8340
+# Current directory: C:/Users/Student/Desktop/Embedded System/Simo_Gueno/GPS_Projekt/GPS_Projekt.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/Users/Student/Desktop/Embedded System/Simo_Gueno/GPS_Projekt/GPS_Projekt.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Users/Student/Desktop/Embedded System/Simo_Gueno/GPS_Projekt/GPS_Projekt.runs/synth_1\vivado.jou
+# Running On: IMESEMB16, OS: Windows, CPU Frequency: 3610 MHz, CPU Physical cores: 12, Host memory: 34033 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+Command: read_checkpoint -auto_incremental -incremental {C:/Users/Student/Desktop/Embedded System/Simo_Gueno/GPS_Projekt/GPS_Projekt.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Student/Desktop/Embedded System/Simo_Gueno/GPS_Projekt/GPS_Projekt.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top design_1_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1

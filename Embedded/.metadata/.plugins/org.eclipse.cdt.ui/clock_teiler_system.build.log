@@ -1,0 +1,10 @@
+12:42:46 **** Incremental Build of configuration Debug for project clock_teiler_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 50739 C:/Users/Student/Desktop/Embedded/design_1_wrapper_3/export/design_1_wrapper_3/design_1_wrapper_3.xpfm standalone_ps7_cortexa9_0 C:/Users/Student/Desktop/Embedded/clock_teiler_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/Student/Desktop/Embedded/design_1_wrapper_3/export/design_1_wrapper_3/design_1_wrapper_3.xpfm --sys_config design_1_wrapper_3 --bif C:/Users/Student/Desktop/Embedded/clock_teiler_system/Debug/system.bif --bitstream C:/Users/Student/Desktop/Embedded/clock_teiler/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/Student/Desktop/Embedded/clock_teiler/Debug/clock_teiler.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/Student/Desktop/Embedded/clock_teiler/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2022.2/bin/bootgen  -image C:/Users/Student/Desktop/Embedded/clock_teiler_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+12:42:51 Build Finished (took 4s.703ms)
+

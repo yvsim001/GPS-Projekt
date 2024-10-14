@@ -1,0 +1,36 @@
+
+
+#LED Uebung
+set_property PACKAGE_PIN R14 [get_ports {cnt_out_0[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {cnt_out_0[0]}]
+
+set_property PACKAGE_PIN P14 [get_ports {cnt_out_0[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {cnt_out_0[1]}]
+
+set_property PACKAGE_PIN N16 [get_ports {cnt_out_0[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {cnt_out_0[2]}]
+
+set_property PACKAGE_PIN M14 [get_ports {cnt_out_0[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {cnt_out_0[3]}]
+
+#Buttons
+
+set_property PACKAGE_PIN D19 [get_ports {GPIO_2_tri_i[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_2_tri_i[0]}]
+
+set_property PACKAGE_PIN D20 [get_ports {GPIO_2_tri_i[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_2_tri_i[1]}]
+
+set_property PACKAGE_PIN L20 [get_ports {GPIO_2_tri_i[2]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_2_tri_i[2]}]
+
+set_property PACKAGE_PIN L19 [get_ports {GPIO_2_tri_i[3]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_2_tri_i[3]}]
+
+#Schwitcher
+
+set_property PACKAGE_PIN M20 [get_ports {GPIO_1_tri_i[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_1_tri_i[0]}]
+
+set_property PACKAGE_PIN M19 [get_ports {GPIO_1_tri_i[1]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {GPIO_1_tri_i[1]}]

@@ -1,0 +1,7 @@
+12:29:31 DEBUG : Logs will be stored at 'C:/Users/Student/Desktop/Embedded System/Simo_Gueno/gpio_backup/IDE.log'.
+12:29:32 ERROR : Workspace location C:\Users\Student\Desktop\Embedded System\Simo_Gueno\gpio_backup contains spaces. Please switch to a workspace without spaces in its path.
+12:29:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Student\Desktop\Embedded System\Simo_Gueno\gpio_backup\temp_xsdb_launch_script.tcl
+12:29:32 INFO  : Registering command handlers for Vitis TCF services
+12:29:33 INFO  : Platform repository initialization has completed.
+12:29:33 ERROR : (XSDB Server)couldn't read file "C:\Users\Student\Desktop\Embedded": permission denied
+

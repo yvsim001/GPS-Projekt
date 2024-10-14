@@ -1,0 +1,50 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.787844",
+   "Default View_TopLeft":"0,1",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 6 -x 1550 -y 280 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 6 -x 1550 -y 300 -defaultsOSRD
+preplace port port-id_q_1 -pg 1 -lvl 6 -x 1550 -y 660 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 4 -x 970 -y 330 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 4 -x 970 -y 140 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 5 -x 1360 -y 140 -defaultsOSRD
+preplace inst Compare_0 -pg 1 -lvl 3 -x 640 -y 500 -defaultsOSRD
+preplace inst Compare_1 -pg 1 -lvl 3 -x 640 -y 690 -defaultsOSRD
+preplace inst counter_0 -pg 1 -lvl 2 -x 320 -y 660 -defaultsOSRD
+preplace inst FlipFlop_0 -pg 1 -lvl 4 -x 970 -y 660 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -x 320 -y 380 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 2 -x 320 -y 230 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 2 -x 320 -y 70 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 40 -y 690 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 40 -y 0 -defaultsOSRD
+preplace netloc Compare_0_res 1 3 1 750 500n
+preplace netloc Compare_1_res 1 3 1 770 660n
+preplace netloc FlipFlop_0_q 1 4 2 NJ 660 NJ
+preplace netloc axi_gpio_0_gpio_io_o 1 1 2 170 460 460
+preplace netloc axi_gpio_1_gpio_io_o 1 2 1 480 240n
+preplace netloc axi_gpio_2_gpio_io_o 1 2 1 470 80n
+preplace netloc counter_0_cnt 1 2 1 500 530n
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 4 150 -10 N -10 N -10 1180
+preplace netloc processing_system7_0_FCLK_CLK0 1 1 4 160 470 510 410 760 30 1190
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 3 2 770 40 1170
+preplace netloc xlconstant_0_dout 1 1 1 N 690
+preplace netloc xlconstant_1_dout 1 1 2 120J 490 490
+preplace netloc axi_interconnect_0_M00_AXI 1 1 5 130 -40 NJ -40 NJ -40 NJ -40 1530
+preplace netloc axi_interconnect_0_M01_AXI 1 1 5 140 -30 NJ -30 NJ -30 NJ -30 1520
+preplace netloc axi_interconnect_0_M02_AXI 1 1 5 160 -20 NJ -20 NJ -20 NJ -20 1510
+preplace netloc processing_system7_0_DDR 1 4 2 1200J 300 1510J
+preplace netloc processing_system7_0_FIXED_IO 1 4 2 1180J 310 1530J
+preplace netloc processing_system7_0_M_AXI_GP0 1 4 1 1210 40n
+levelinfo -pg 1 -80 40 320 640 970 1360 1550
+pagesize -pg 1 -db -bbox -sgen -80 -150 1670 780
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"1",
+   "da_clkrst_cnt":"4",
+   "da_ps7_cnt":"1"
+}

@@ -1,0 +1,25 @@
+12:42:45 **** Incremental Build of configuration Debug for project clock_teiler ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/clock_teiler.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/clock_teiler.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Student/Desktop/Embedded/design_1_wrapper_3/export/design_1_wrapper_3/sw/design_1_wrapper_3/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/clock_teiler.d" -MT"src/clock_teiler.o" -o "src/clock_teiler.o" "../src/clock_teiler.c"
+'Finished building: ../src/clock_teiler.c'
+' '
+'Building target: clock_teiler.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Student/Desktop/Embedded/design_1_wrapper_3/export/design_1_wrapper_3/sw/design_1_wrapper_3/standalone_ps7_cortexa9_0/bsplib/lib -o "clock_teiler.elf"  ./src/clock_teiler.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: clock_teiler.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size clock_teiler.elf  |tee "clock_teiler.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22021	   1144	  22584	  45749	   b2b5	clock_teiler.elf
+'Finished building: clock_teiler.elf.size'
+' '
+
+12:42:46 Build Finished (took 959ms)
+

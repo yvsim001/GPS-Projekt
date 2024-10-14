@@ -1,0 +1,10 @@
+13:59:59 **** Incremental Build of configuration Debug for project PWM_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 55022 C:/Users/Student/Desktop/Embedded/design_1_wrapper_4/export/design_1_wrapper_4/design_1_wrapper_4.xpfm standalone_ps7_cortexa9_0 C:/Users/Student/Desktop/Embedded/PWM_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/Student/Desktop/Embedded/design_1_wrapper_4/export/design_1_wrapper_4/design_1_wrapper_4.xpfm --sys_config design_1_wrapper_4 --bif C:/Users/Student/Desktop/Embedded/PWM_system/Debug/system.bif --bitstream C:/Users/Student/Desktop/Embedded/PWM/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/Student/Desktop/Embedded/PWM/Debug/PWM.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/Student/Desktop/Embedded/PWM/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2022.2/bin/bootgen  -image C:/Users/Student/Desktop/Embedded/PWM_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:00:02 Build Finished (took 2s.828ms)
+
